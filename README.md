@@ -8,7 +8,7 @@ The goal of AILE is to achieve a decentralized sustainable crypto currency with 
 - Fast transactions featuring guaranteed zero confirmation transactions, we call it _SwiftX_.
 - Decentralized blockchain voting utilizing Masternode technology to form a DAO. The blockchain will distribute monthly treasury funds based on successful proposals submitted by the community and voted on by the DAO.
 
-More information at [ailecoin.com]](https://aile.com)
+More information at [www.ailecoin.com](https://www.ailecoin.com)
 
 ### Coin Specs
 <table>

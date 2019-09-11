@@ -1,6 +1,8 @@
 AILE Core integration/staging repository
 =====================================
 
+[![AILE COIN](https://github.com/ailecoin/AILE-Project/blob/master/ailecoin_title.png)](http://www.ailecoin.com)
+
 AILE is an open source crypto-currency focused on fast private transactions using the Zerocoin protocol, with low transaction fees & environmental footprint.  It utilizes the first ever anonymous proof of stake protocol, called zPoS, combined with regular PoS and masternodes for securing its network. zPoS incentivises using the privacy features available in AILE by granting a higher block reward for zPoS over regular PoS and masternodes. In practice AILE has between 4 to 10 times higher use of it's privacy features in comparison to other coins that combine public and private transactions. This is thanks to innovations like zPoS and integrating the Zerocoin protocol into light/mobile wallets, allowing for a complete and lightweight privacy protocol that can be used on the go.
 The goal of AILE is to achieve a decentralized sustainable crypto currency with near instant full-time private transactions, fair governance and community intelligence.
 - Anonymized transactions & consensus using the Zerocoin Protocol and zPoS.

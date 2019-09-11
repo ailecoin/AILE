@@ -1,0 +1,6 @@
+usr/local/bin/aile-qt usr/bin
+share/pixmaps/aile32.xpm usr/share/pixmaps
+share/pixmaps/aile16.xpm usr/share/pixmaps
+share/pixmaps/aile128.png usr/share/pixmaps
+debian/aile-qt.desktop usr/share/applications
+debian/aile-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,8 @@
+/usr/bin/aile-cli		--	gen_context(system_u:object_r:aile_exec_t,s0)
+/usr/sbin/ailed		--	gen_context(system_u:object_r:aile_exec_t,s0)
+/usr/lib(64)?/aile/ailed		--	gen_context(system_u:object_r:aile_exec_t,s0)
+
+/etc/aile(/.*)?		gen_context(system_u:object_r:aile_conf_t,s0)
+/var/lib/aile(/.*)?		gen_context(system_u:object_r:aile_var_lib_t,s0)
+
+(/var)?/run/ailed(/.*)?   gen_context(system_u:object_r:aile_var_run_t,s0)

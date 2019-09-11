@@ -1,0 +1,3 @@
+usr/local/bin/ailed usr/bin
+usr/local/bin/aile-cli usr/bin
+debian/examples/aile.conf etc/aile

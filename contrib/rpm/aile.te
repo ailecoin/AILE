@@ -1,0 +1,81 @@
+policy_module(aile, 1.100.1)
+
+########################################
+#
+# Declarations
+#
+
+type aile_t;
+type aile_exec_t;
+init_daemon_domain(aile_t, aile_exec_t)
+
+permissive aile_t;
+
+type aile_initrc_exec_t;
+init_script_file(aile_initrc_exec_t)
+
+type aile_conf_t;
+files_type(aile_conf_t)
+
+type aile_var_lib_t;
+files_type(aile_var_lib_t)
+
+type aile_var_run_t;
+files_type(aile_var_run_t)
+
+type aile_port_t;
+corenet_port(aile_port_t)
+
+########################################
+#
+# aile local policy
+#
+allow aile_t self:process { fork };
+
+allow aile_t self:fifo_file rw_fifo_file_perms;
+allow aile_t self:unix_stream_socket create_stream_socket_perms;
+
+manage_dirs_pattern(aile_t, aile_conf_t, aile_conf_t)
+manage_files_pattern(aile_t, aile_conf_t, aile_conf_t)
+
+manage_dirs_pattern(aile_t, aile_var_lib_t, aile_var_lib_t)
+manage_files_pattern(aile_t, aile_var_lib_t, aile_var_lib_t)
+files_var_lib_filetrans(aile_t, aile_var_lib_t, { dir file })
+
+manage_dirs_pattern(aile_t, aile_var_run_t, aile_var_run_t)
+manage_files_pattern(aile_t, aile_var_run_t, aile_var_run_t)
+
+sysnet_dns_name_resolve(aile_t)
+corenet_all_recvfrom_unlabeled(aile_t)
+
+allow aile_t self:tcp_socket create_stream_socket_perms;
+corenet_tcp_sendrecv_generic_if(aile_t)
+corenet_tcp_sendrecv_generic_node(aile_t)
+corenet_tcp_sendrecv_all_ports(aile_t)
+corenet_tcp_bind_generic_node(aile_t)
+
+gen_require(`
+    type aile_port_t;
+')
+allow aile_t aile_port_t:tcp_socket name_bind;
+
+gen_require(`
+    type aile_port_t;
+')
+allow aile_t aile_port_t:tcp_socket name_connect;
+
+domain_use_interactive_fds(aile_t)
+
+files_read_etc_files(aile_t)
+
+miscfiles_read_localization(aile_t)
+
+sysnet_dns_name_resolve(aile_t)
+
+allow aile_t aile_exec_t:file execute_no_trans;
+allow aile_t self:process setsched;
+corecmd_exec_ls(aile_t)
+corenet_tcp_connect_http_port(aile_t)
+dev_read_urand(aile_t)
+fs_getattr_xattr_fs(aile_t)
+kernel_read_system_state(aile_t)

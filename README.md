@@ -25,8 +25,8 @@ More information at [www.ailecoin.com](https://www.ailecoin.com)
 <tr><td>Algo</td><td>Quark</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
-<tr><td>Max Coin Supply (PoW Phase)</td><td>43,199,500 AILE</td></tr>
-<tr><td>Max Coin Supply (PoS Phase)</td><td>Infinite</td></tr>
+<tr><td>Max Coin Supply</td><td>1,000,000,000 AILE</td></tr>
+<tr><td>Min Coin for Masternode Staking</td><td>1,000 AILE</td></tr>
 <tr><td>Premine</td><td>60,000 AILE*</td></tr>
 </table>
 

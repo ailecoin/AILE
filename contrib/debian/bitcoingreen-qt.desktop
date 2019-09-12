@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=AileCoin
+Comment=AileCoin P2P Cryptocurrency
+Exec=ailecoin-qt %u
+Terminal=false
+Type=Application
+Icon=ailecoin128
+MimeType=x-scheme-handler/ailecoin;
+Categories=Office;Finance;
+Name[en_US]=ailecoin-qt.desktop

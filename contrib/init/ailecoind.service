@@ -1,0 +1,26 @@
+[Unit]
+Description=AileCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=ailecoin
+Group=ailecoin
+
+Type=forking
+PIDFile=/var/lib/ailecoind/ailecoind.pid
+
+ExecStart=/usr/bin/ailecoind -daemon -pid=/var/lib/ailecoind/ailecoind.pid \
+          -conf=/etc/ailecoin/ailecoin.conf -datadir=/var/lib/ailecoind
+
+ExecStop=-/usr/bin/ailecoin-cli -conf=/etc/ailecoin/ailecoin.conf \
+         -datadir=/var/lib/ailecoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

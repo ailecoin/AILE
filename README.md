@@ -44,17 +44,17 @@ More information at [www.ailecoin.com](https://www.ailecoin.com)
 <table>
 <th>Phase</th><th>Block Height</th><th>Reward</th><th>PoS</th><th>Masternodes & Stakers</th>
 <tr><td>Phase 0</td><td>2-43200</td><td>150 AILE</td><td>15% (22.5 AILE)</td><td>85% (127.5 AILE)</td></tr>
-<tr><td>Phase 1</td><td>43201-86400</td><td>160 AILE</td><td>15% (40.5 AILE)</td><td>85% (136 AILE)</td></tr>
-<tr><td>Phase 2</td><td>86401-129600</td><td>170 AILE</td><td>15% (36 AILE)</td><td>85% (144.5 AILE)</td></tr>
-<tr><td>Phase 3</td><td>129601-172800</td><td>180 AILE</td><td>15% (31.5 AILE)</td><td>85% (153 AILE)</td></tr>
-<tr><td>Phase 4</td><td>172801-216000</td><td>190 AILE</td><td>15% (27 AILE)</td><td>85% (161.5 AILE)</td></tr>
-<tr><td>Phase 5</td><td>216001-259200</td><td>200 AILE</td><td>15% (22.5 AILE)</td><td>85% (170 AILE)</td></tr>
-<tr><td>Phase 6</td><td>259201-302400</td><td>210 AILE</td><td>15% (18 AILE)</td><td>85% (178.5 AILE)</td></tr>
-<tr><td>Phase 7</td><td>302401-345600</td><td>220 AILE</td><td>15% (13.5 AILE)</td><td>85% (187 AILE)</td></tr>
-<tr><td>Phase 8</td><td>345601-388800</td><td>230 AILE</td><td>15% (9 AILE)</td><td>85% (195.5 AILE)</td></tr>
+<tr><td>Phase 1</td><td>43201-86400</td><td>160 AILE</td><td>15% (24 AILE)</td><td>85% (136 AILE)</td></tr>
+<tr><td>Phase 2</td><td>86401-129600</td><td>170 AILE</td><td>15% (25.5 AILE)</td><td>85% (144.5 AILE)</td></tr>
+<tr><td>Phase 3</td><td>129601-172800</td><td>180 AILE</td><td>15% (27 AILE)</td><td>85% (153 AILE)</td></tr>
+<tr><td>Phase 4</td><td>172801-216000</td><td>190 AILE</td><td>15% (28.5 AILE)</td><td>85% (161.5 AILE)</td></tr>
+<tr><td>Phase 5</td><td>216001-259200</td><td>200 AILE</td><td>15% (30 AILE)</td><td>85% (170 AILE)</td></tr>
+<tr><td>Phase 6</td><td>259201-302400</td><td>210 AILE</td><td>15% (31.5 AILE)</td><td>85% (178.5 AILE)</td></tr>
+<tr><td>Phase 7</td><td>302401-345600</td><td>220 AILE</td><td>15% (33 AILE)</td><td>85% (187 AILE)</td></tr>
+<tr><td>Phase 8</td><td>345601-388800</td><td>230 AILE</td><td>15% (34.5 AILE)</td><td>85% (195.5 AILE)</td></tr>
 <tr><td>Phase 9</td><td>388801-432000</td><td>240 AILE</td><td>15% (36 AILE)</td><td>85% (204 AILE)</td></tr>
-<tr><td>Phase 10</td><td>432001-475200</td><td>250 AILE</td><td>15% (36 AILE)</td><td>85% (212.5 AILE)</td></tr>
-<tr><td>Phase 11</td><td>475201-518400</td><td>200 AILE</td><td>15% (36 AILE)</td><td>85% (170 AILE)</td></tr>
+<tr><td>Phase 10</td><td>432001-475200</td><td>250 AILE</td><td>15% (37.5 AILE)</td><td>85% (212.5 AILE)</td></tr>
+<tr><td>Phase 11</td><td>475201-518400</td><td>200 AILE</td><td>15% (30 AILE)</td><td>85% (170 AILE)</td></tr>
 <tr><td>Phase X</td><td>518401-∞</td><td>150 AILE</td><td>15% (22.5 AILE)</td><td>85% (127.5 AILE)</td></tr>
 </table>
 

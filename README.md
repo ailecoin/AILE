@@ -1,7 +1,7 @@
 AILE Core integration/staging repository
 =====================================
 
-[![AILE COIN](https://github.com/ailecoin/AILE-Project/blob/master/ailecoin.png)](http://www.ailecoin.com)
+[![AILE COIN](https://github.com/ailecoin/AILE/blob/master/img/ailecoin.png)](http://www.ailecoin.com)
 
 
 AileCoin is an experimental digital currency that enables anonymous, instant
@@ -61,7 +61,7 @@ More information at [www.ailecoin.com](https://www.ailecoin.com)
 <tr><td>Phase 7</td><td>561600-604799</td><td>15 AILE</td><td>90% (13.5 AILE)</td><td>10% (1.5 AILE)</td></tr>
 <tr><td>Phase 8</td><td>604800-647999</td><td>10 AILE</td><td>90% (9 AILE)</td><td>10% (1 AILE)</td></tr>
 <tr><td>Phase 9</td><td>648000-1154203</td><td>5 AILE</td><td>90% (4.5 AILE)</td><td>10% (0.5 AILE)</td></tr>
-<tr><td>Phase X</td><td>1154203-¡Ä</td><td>6 AILE</td><td>84% (5 AILE/zAILE)</td><td>16% (1 AILE)</td></tr>
+<tr><td>Phase X</td><td>1154203-Â¡Ã„</td><td>6 AILE</td><td>84% (5 AILE/zAILE)</td><td>16% (1 AILE)</td></tr>
 </table>
 
 

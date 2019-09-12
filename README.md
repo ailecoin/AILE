@@ -35,7 +35,7 @@ More information at [www.ailecoin.com](https://www.ailecoin.com)
 <table>
 <th colspan=4>Genesis Block</th>
 <tr><th>Block Height</th><th>Reward Amount</th><th>Notes</th></tr>
-<tr><td>1</td><td>60,000 AILE</td><td>Initial Pre-mine, burnt in block <a href="http://www.presstab.pw/phpexplorer/AILE/block.php?blockhash=206d9cfe859798a0b0898ab00d7300be94de0f5469bb446cecb41c3e173a57e0">279917</a></td></tr>
+<tr><td>1</td><td>60,000 AILE</td><td>Initial Pre-mine</td></tr>
 </table>
 
 ### PoW Rewards Breakdown

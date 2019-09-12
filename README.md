@@ -20,8 +20,6 @@ More information at [www.ailecoin.com](https://www.ailecoin.com)
 <tr><td>Abbr</td><td>AILE</td></tr>
 <tr><td>P2Pport</td><td>59871</td></tr>
 <tr><td>RPCport</td><td>59872</td></tr>
-<tr><td>Timestamp</td><td>1562155595</td></tr>
-<tr><td>Nodes</td><td>220.123.210.101</td></tr>
 <tr><td>Algo</td><td>Quark</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>

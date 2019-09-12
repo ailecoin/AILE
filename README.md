@@ -42,15 +42,6 @@ More information at [www.ailecoin.com](https://www.ailecoin.com)
 ### Block Rewards Breakdown
 
 <table>
-<th>Block Height</th><th>Masternodes</th><th>Miner</th><th>Budget</th>
-<tr><td>2-43200</td><td>20% (50 AILE)</td><td>80% (200 AILE)</td><td>N/A</td></tr>
-<tr><td>43201-151200</td><td>20% (50 AILE)</td><td>70% (200 AILE)</td><td>10% (25 AILE)</td></tr>
-<tr><td>151201-259200</td><td>45% (22.5 AILE)</td><td>45% (22.5 AILE)</td><td>10% (5 AILE)</td></tr>
-</table>
-
-### PoS Rewards Breakdown
-
-<table>
 <th>Phase</th><th>Block Height</th><th>Reward</th><th>PoS</th><th>Masternodes & Stakers</th>
 <tr><td>Phase 0</td><td>2-43200</td><td>150 AILE</td><td>15% (22.5 AILE)</td><td>85% (127.5 AILE)</td></tr>
 <tr><td>Phase 1</td><td>43201-86400</td><td>160 AILE</td><td>15% (40.5 AILE)</td><td>85% (136 AILE)</td></tr>

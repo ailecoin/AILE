@@ -20,12 +20,11 @@ More information at [www.ailecoin.com](https://www.ailecoin.com)
 <tr><td>Abbr</td><td>AILE</td></tr>
 <tr><td>P2Pport</td><td>59871</td></tr>
 <tr><td>RPCport</td><td>59872</td></tr>
-<tr><td>Timestamp</td><td>1562155595</td></tr>
-<tr><td>Nodes</td><td>45.77.9.237<br>45.32.251.4</td></tr>
+<tr><td>Algo</td><td>Quark</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
-<tr><td>Max Coin Supply (PoW Phase)</td><td>43,199,500 AILE</td></tr>
-<tr><td>Max Coin Supply (PoS Phase)</td><td>Infinite</td></tr>
+<tr><td>Max Coin Supply</td><td>100,000,000 AILE</td></tr>
+<tr><td>Min Coin for Masternode Staking</td><td>1,000 AILE</td></tr>
 <tr><td>Premine</td><td>60,000 AILE*</td></tr>
 </table>
 
@@ -38,32 +37,24 @@ More information at [www.ailecoin.com](https://www.ailecoin.com)
 <tr><td>1</td><td>60,000 AILE</td><td>Initial Pre-mine</td></tr>
 </table>
 
-### PoW Rewards Breakdown
+### Block Rewards Breakdown
 
 <table>
-<th>Block Height</th><th>Masternodes</th><th>Miner</th><th>Budget</th>
-<tr><td>2-43200</td><td>20% (50 AILE)</td><td>80% (200 AILE)</td><td>N/A</td></tr>
-<tr><td>43201-151200</td><td>20% (50 AILE)</td><td>70% (200 AILE)</td><td>10% (25 AILE)</td></tr>
-<tr><td>151201-259200</td><td>45% (22.5 AILE)</td><td>45% (22.5 AILE)</td><td>10% (5 AILE)</td></tr>
+<th>Phase</th><th>Block Height</th><th>Reward</th><th>PoS</th><th>Masternodes & Stakers</th>
+<tr><td>Phase 0</td><td>2-43200</td><td>150 AILE</td><td>15% (22.5 AILE)</td><td>85% (127.5 AILE)</td></tr>
+<tr><td>Phase 1</td><td>43201-86400</td><td>160 AILE</td><td>15% (24 AILE)</td><td>85% (136 AILE)</td></tr>
+<tr><td>Phase 2</td><td>86401-129600</td><td>170 AILE</td><td>15% (25.5 AILE)</td><td>85% (144.5 AILE)</td></tr>
+<tr><td>Phase 3</td><td>129601-172800</td><td>180 AILE</td><td>15% (27 AILE)</td><td>85% (153 AILE)</td></tr>
+<tr><td>Phase 4</td><td>172801-216000</td><td>190 AILE</td><td>15% (28.5 AILE)</td><td>85% (161.5 AILE)</td></tr>
+<tr><td>Phase 5</td><td>216001-259200</td><td>200 AILE</td><td>15% (30 AILE)</td><td>85% (170 AILE)</td></tr>
+<tr><td>Phase 6</td><td>259201-302400</td><td>210 AILE</td><td>15% (31.5 AILE)</td><td>85% (178.5 AILE)</td></tr>
+<tr><td>Phase 7</td><td>302401-345600</td><td>220 AILE</td><td>15% (33 AILE)</td><td>85% (187 AILE)</td></tr>
+<tr><td>Phase 8</td><td>345601-388800</td><td>230 AILE</td><td>15% (34.5 AILE)</td><td>85% (195.5 AILE)</td></tr>
+<tr><td>Phase 9</td><td>388801-432000</td><td>240 AILE</td><td>15% (36 AILE)</td><td>85% (204 AILE)</td></tr>
+<tr><td>Phase 10</td><td>432001-475200</td><td>250 AILE</td><td>15% (37.5 AILE)</td><td>85% (212.5 AILE)</td></tr>
+<tr><td>Phase 11</td><td>475201-518400</td><td>200 AILE</td><td>15% (30 AILE)</td><td>85% (170 AILE)</td></tr>
+<tr><td>Phase X</td><td>518401-∞</td><td>150 AILE</td><td>15% (22.5 AILE)</td><td>85% (127.5 AILE)</td></tr>
 </table>
-
-### PoS Rewards Breakdown
-
-<table>
-<th>Phase</th><th>Block Height</th><th>Reward</th><th>Masternodes & Stakers</th><th>Budget</th>
-<tr><td>Phase 0</td><td>259201-302399</td><td>50 AILE</td><td>90% (45 AILE)</td><td>10% (5 AILE)</td></tr>
-<tr><td>Phase 1</td><td>302400-345599</td><td>45 AILE</td><td>90% (40.5 AILE)</td><td>10% (4.5 AILE)</td></tr>
-<tr><td>Phase 2</td><td>345600-388799</td><td>40 AILE</td><td>90% (36 AILE)</td><td>10% (4 AILE)</td></tr>
-<tr><td>Phase 3</td><td>388800-431999</td><td>35 AILE</td><td>90% (31.5 AILE)</td><td>10% (3.5 AILE)</td></tr>
-<tr><td>Phase 4</td><td>432000-475199</td><td>30 AILE</td><td>90% (27 AILE)</td><td>10% (3 AILE)</td></tr>
-<tr><td>Phase 5</td><td>475200-518399</td><td>25 AILE</td><td>90% (22.5 AILE)</td><td>10% (2.5 AILE)</td></tr>
-<tr><td>Phase 6</td><td>518400-561599</td><td>20 AILE</td><td>90% (18 AILE)</td><td>10% (2 AILE)</td></tr>
-<tr><td>Phase 7</td><td>561600-604799</td><td>15 AILE</td><td>90% (13.5 AILE)</td><td>10% (1.5 AILE)</td></tr>
-<tr><td>Phase 8</td><td>604800-647999</td><td>10 AILE</td><td>90% (9 AILE)</td><td>10% (1 AILE)</td></tr>
-<tr><td>Phase 9</td><td>648000-1154203</td><td>5 AILE</td><td>90% (4.5 AILE)</td><td>10% (0.5 AILE)</td></tr>
-<tr><td>Phase X</td><td>1154203-¡Ä</td><td>6 AILE</td><td>84% (5 AILE/zAILE)</td><td>16% (1 AILE)</td></tr>
-</table>
-
 
 
 

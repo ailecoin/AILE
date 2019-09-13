@@ -3,7 +3,7 @@ AileCoin Core
 
 Setup
 ---------------------
-[AileCoin Core](https://www.pointofpublic.org) is the original AileCoin client and it builds the backbone of the network. However, it downloads and stores the entire history of AileCoin transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[AileCoin Core](https://www.ailecoin.com) is the original AileCoin client and it builds the backbone of the network. However, it downloads and stores the entire history of AileCoin transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
@@ -35,7 +35,7 @@ The following are developer notes on how to build AileCoin on your native platfo
 
 Development
 ---------------------
-The AileCoin repo's [root README](https://github.com/pointofpublic/pointofpublic/blob/master/README.md) contains relevant information on the development process and automated testing.
+The AileCoin repo's [root README](https://github.com/ailecoin/ailecoin/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)

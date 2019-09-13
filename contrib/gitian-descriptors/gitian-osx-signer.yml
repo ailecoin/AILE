@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/pointofpublic/pointofpublic-detached-sigs.git"
+- "url": "https://github.com/ailecoin/ailecoin-detached-sigs.git"
   "dir": "signature"
 files:
 - "ailecoin-osx-unsigned.tar.gz"

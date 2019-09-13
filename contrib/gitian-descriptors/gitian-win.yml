@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/pointofpublic/pointofpublic.git"
+- "url": "https://github.com/ailecoin/ailecoin.git"
   "dir": "ailecoin"
 files: []
 script: |

@@ -23,8 +23,8 @@ Build-Depends: debhelper,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
 Homepage: http://www.savebitcoin.io
-Vcs-Git: git://github.com/pointofpublic/pointofpublic.git
-Vcs-Browser: http://github.com/pointofpublic/pointofpublic
+Vcs-Git: git://github.com/ailecoin/ailecoin.git
+Vcs-Browser: http://github.com/ailecoin/ailecoin
 
 Package: ailecoind
 Architecture: any

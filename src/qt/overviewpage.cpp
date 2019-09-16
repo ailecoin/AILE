@@ -365,11 +365,11 @@ void OverviewPage::SetLinks()
 
 
 
-    ui->labelLinksUrl1->setText("<a href=\"https://www.pointofpublic.org/\">https://www.pointofpublic.org/</a>");
-    ui->labelLinksUrl2->setText("<a href=\"https://www.pointofpublic.org/whitepaper\">https://www.pointofpublic.org/whitepaper</a>");
-    ui->labelLinksUrl3->setText("<a href=\"https://explorer.pointofpublic.org/\">https://explorer.pointofpublic.org/</a>");
+    ui->labelLinksUrl1->setText("<a href=\"https://www.ailecoin.com/\">https://www.ailecoin.com/</a>");
+    ui->labelLinksUrl2->setText("<a href=\"https://www.ailecoin.com/whitepaper\">https://www.ailecoin.com/whitepaper</a>");
+    ui->labelLinksUrl3->setText("<a href=\"https://explorer.ailecoin.com/\">https://explorer.ailecoin.com/</a>");
     ui->labelLinksUrl4->setText("<a href=\"https://twitter.com/ailecoin\">https://twitter.com/ailecoin</a>");
-    ui->labelLinksUrl5->setText("<a href=\"https://github.com/pointofpublic/pointofpublic\">https://github.com/pointofpublic/pointofpublic</a>");
+    ui->labelLinksUrl5->setText("<a href=\"https://github.com/ailecoin/AILE\">https://github.com/ailecoin/AILE</a>");
     ui->labelLinksUrl6->setText("");
     ui->labelLinksUrl7->setText("");
 

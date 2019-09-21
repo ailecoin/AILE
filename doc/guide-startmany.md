@@ -138,7 +138,7 @@ I usually confirm that remote is on the correct block by issuing:
 OR
 ```ailecoin-cli getinfo```
 
-And compare with the official explorer at http://explorer.pointofpublic.org
+And compare with the official explorer at http://explorer.ailecoin.com
 
 ### Local
 

@@ -6,6 +6,7 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
+							   
 #include "chainparams.h"
 #include "bignum.h"
 #include "random.h"
@@ -15,6 +16,7 @@
 #include <assert.h>
 
 #include <boost/assign/list_of.hpp>
+				 
 
 using namespace std;
 using namespace boost::assign;
@@ -25,6 +27,10 @@ struct SeedSpec6 {
 };
 
 #include "chainparamsseeds.h"
+
+/**
+ * Main network
+ */
 
 //! Convert the pnSeeds6 array into usable address objects.
 static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data, unsigned int count)
@@ -57,17 +63,32 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
 
 
 
+																						 
+																						 
+																						 
+																						 
+																															   
+																											 
+																						 
+																						  
+																																		 
+																																			   
+																												  
+																												   
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1562683961
-    , // * UNIX timestamp of last checkpoint block
-    10788,          // * total number of transactions between genesis and last checkpoint (the tx=... number in the SetBestChain debug.log lines)
+    1562683961, // * UNIX timestamp of last checkpoint block
+    10788,      // * total number of transactions between genesis and last checkpoint (the tx=... number in the SetBestChain debug.log lines)
+																			
     1440        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of(0, uint256("0x0000022334a1cd7f9cfd9aeefb0563ebd585d6206d1dffde78cd6db24967e402"));
 
+																						  
+																																 
+																						   
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
     1562155595, // * UNIX timestamp of last checkpoint block
@@ -83,6 +104,34 @@ static const Checkpoints::CCheckpointData dataRegtest = {
     0,          // * total number of transactions between genesis and last checkpoint (the tx=... number in the SetBestChain debug.log lines)
     1440        // * estimated number of transactions per day after checkpoint
 };
+																				   
+ 
+				 
+									
+					  
+											 
+																							   
+									
+					  
+											 
+																							   
+
+					 
+							
+
+						
+ 
+
+																							 
+																			  
+ 
+																								
+										  
+																									   
+
+																						  
+																   
+ 
 
 class CMainParams : public CChainParams
 {
@@ -97,11 +146,11 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0]             = 0xcc;
-        pchMessageStart[1]             = 0xcc;
-        pchMessageStart[2]             = 0xbc;
-        pchMessageStart[3]             = 0xdc;
-        vAlertPubKey                   = ParseHex("04093f483bfefb589393158612f3e949905007bcad76e09e449f88bd5af83dd5a1eeedd5ae3aced724cbed84722c580357a863a7cf0e867dba34ffad053998802a");
+        pchMessageStart[0]             = 0x91;
+        pchMessageStart[1]             = 0xcd;
+        pchMessageStart[2]             = 0xdf;
+        pchMessageStart[3]             = 0x9e;
+        vAlertPubKey                   = ParseHex("048088368a4d50324ff5687c90d0234ce989cdfbeb7632e757c87dfbbbf86d27499623adf2c3c5c6a810ab8f316e5ab59866a9730c1b649ccc91850aa9e0239177");
         nDefaultPort                   = 59871;
         nSubsidyHalvingInterval        = 1050000;
         nMaxReorganizationDepth        = 100;
@@ -110,23 +159,57 @@ public:
         nToCheckBlockUpgradeMajority   = 1000;
         nMinerThreads                  = 0;
 
-        bnProofOfWorkLimit             = ~uint256(0) >> 20;
+        bnProofOfWorkLimit             = ~uint256(0) >> 20;  // AileCoin starting difficulty is 1 / 2^12
         nTargetTimespan                =  1 * 60;
         nTargetSpacing                 =  1 * 60;  // AileCoin: 1 minute blocks during POW
 
-        bnProofOfStakeLimit            = ~uint256(0) >> 20;
+        bnProofOfStakeLimit            = ~uint256(0) >> 20;  // AileCoin starting difficulty is 1 / 2^12
         nTargetTimespanPOS             = 40 * 60;
+						  
         nTargetSpacingPOS              =  1 * 60;  // AileCoin: 1 minute blocks during POS
 
         nMaturity                      = 5;
+								   
+								  
         nMasternodeCountDrift          = 20;
         nMaxMoneyOut                   = 1000000000 * COIN;
 
         /** Height or Time Based Activations **/
         nLastPOWBlock                  = 300;
+																						   
+																							
         nModifierUpdateBlock           = 1;
+									  
+																	   
+																					 
+																						 
+																			  
+																			  
+																			   
+																																   
+																																
+										  
+																																	 
+																														   
+										 
+										
+								  
 
         const char* pszTimestamp       = "Iran Threatens to Exceed Some Limits of Nuclear Deal, and Trump Orders Deployment of 1,000 More Troops";
+											
+																										 
+
+		   
+																					   
+																   
+		  
+																																							
+																				   
+																																																														  
+																				
+								
+		   
+																														   
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -137,7 +220,7 @@ public:
         genesis.hashPrevBlock          = 0;
         genesis.hashMerkleRoot         = genesis.BuildMerkleTree();
         genesis.nVersion               = 1;
-        genesis.nTime                  = 1562155595;
+        genesis.nTime                  = 1568764800; //09/18/2019 @ 12:00am (UTC)
         genesis.nBits                  = 504365040;
         genesis.nNonce                 = 3047514;
 
@@ -155,25 +238,19 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
+																		
+																																			
+																																			
+																								 
+																																		   
 
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
-        vSeeds.push_back(CDNSSeedData("45.77.9.237", "45.77.9.237"));
-        vSeeds.push_back(CDNSSeedData("45.32.251.4", "45.32.251.4"));
-        vSeeds.push_back(CDNSSeedData("45.76.208.183", "45.76.208.183"));
-        vSeeds.push_back(CDNSSeedData("198.13.38.119", "198.13.38.119"));
-        vSeeds.push_back(CDNSSeedData("45.77.21.70", "45.77.21.70"));
-        vSeeds.push_back(CDNSSeedData("45.77.130.26", "45.77.130.26"));
-        vSeeds.push_back(CDNSSeedData("45.32.36.18", "45.32.36.18"));
-        vSeeds.push_back(CDNSSeedData("202.182.101.162", "202.182.101.162"));
-        vSeeds.push_back(CDNSSeedData("149.28.31.156", "149.28.31.156"));
-        vSeeds.push_back(CDNSSeedData("45.63.121.56", "45.63.121.56"));
-        vSeeds.push_back(CDNSSeedData("149.28.19.210", "149.28.19.210"));
-        vSeeds.push_back(CDNSSeedData("107.191.53.220", "107.191.53.220"));
-        vSeeds.push_back(CDNSSeedData("45.77.183.241", "45.77.183.241"));
-        vSeeds.push_back(CDNSSeedData("45.76.52.233", "45.76.52.233"));
-        vSeeds.push_back(CDNSSeedData("198.13.37.49", "198.13.37.49"));
-        vSeeds.push_back(CDNSSeedData("45.77.29.239", "45.77.29.239"));
+        vSeeds.push_back(CDNSSeedData("dnsseed.ailecoin.com", "dnsseed.ailecoin.com"));
+		vSeeds.push_back(CDNSSeedData("dnsseed.ailecoin.net", "dnsseed.ailecoin.net"));
+        vSeeds.push_back(CDNSSeedData("dnsseed.ailecoin.io", "dnsseed.ailecoin.io"));
+		vSeeds.push_back(CDNSSeedData("dnsseed.ailecoin.kr", "dnsseed.ailecoin.kr"));
+		vSeeds.push_back(CDNSSeedData("dnsseed.ailecoin.co.kr", "dnsseed.ailecoin.co.kr"));
 
         fMiningRequiresPeers           = true;
         fAllowMinDifficultyBlocks      = false;
@@ -187,17 +264,35 @@ public:
         nPoolMaxTransactions           = 3;
         strSporkKey                    = "045aabb21152a1f5c0cfb3a9fc67ca457c03804d241239db04347b72b319f348c88e224ba4afed80b01d16af91615aa3ab6ba82277ca7fd8cc95175df5079a49d1";
         strMasternodePoolDummyAddress  = "PFQP91e8KTxJu2yzDnyjW9VPXyxBHYK3kF";
+																			  
+																			  
         nStartMasternodePayments       = 1525192183;
 
         nBudget_Fee_Confirmations      = 6;
+																															  
+																															  
+																															  
+																															  
+																					  
+																	   
+																						  
+																			  
+																									  
+								  
+																		   
+																								
+																								 
+
 
         strTreasuryAddress             = "PBfFbtNy8ybUEyJB7Ep5SCyjw3xwzsqMiy";
+	 
     }
 
     const Checkpoints::CCheckpointData& Checkpoints() const
     {
         return data;
     }
+  
 };
 static CMainParams mainParams;
 
@@ -211,11 +306,11 @@ public:
     {
         networkID                      = CBaseChainParams::TESTNET;
         strNetworkID                   = "test";
-        pchMessageStart[0]             = 0xa4;
-        pchMessageStart[1]             = 0xc2;
-        pchMessageStart[2]             = 0xdc;
-        pchMessageStart[3]             = 0xbc;
-        vAlertPubKey                   = ParseHex("04093f483bfefb589393158612f3e949905007bcad76e09e449f88bd5af83dd5a1eeedd5ae3aced724cbed84722c580357a863a7cf0e867dba34ffad053998802a");
+        pchMessageStart[0]             = 0xb4;
+        pchMessageStart[1]             = 0x2c;
+        pchMessageStart[2]             = 0xcc;
+        pchMessageStart[3]             = 0xfe;
+        vAlertPubKey                   = ParseHex("04e1480f1dff5a015120b1470901deb7609cede241c5b52eef509559f252f98c6079fbdedf4cdea68071175fa82cc4fe9bbbc4cc27db16c5384caea3e3955ea69c");
         nDefaultPort                   = 39873;
         nEnforceBlockUpgradeMajority   = 51;
         nRejectBlockOutdatedMajority   = 75;
@@ -229,6 +324,21 @@ public:
         bnProofOfStakeLimit            = ~uint256(0) >> 20;
         nTargetTimespanPOS             =  40 * 60;
         nTargetSpacingPOS              =   1 * 60;  // AileCoin: 1 minute blocks during POS
+									  
+										
+																				
+																						  
+																			   
+																			   
+																				
+																														 
+																				 
+																																	 
+																													 
+										 
+										
+								  
+
 
         nLastPOWBlock                  = 100;
         nMaturity                      = 5;
@@ -247,11 +357,18 @@ public:
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,  117);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 125);
         base58Prefixes[SECRET_KEY]     = std::vector<unsigned char>(1, 193);
+																						  
+
 
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >(); // AileCoin BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
+																																			 
+													   
+																																			
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >(); // AileCoin BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
+																																			
         base58Prefixes[EXT_COIN_TYPE]  = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
         // Testnet AileCoin BIP44 coin type is '1' (All coin's testnet default)
+
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
 
@@ -266,6 +383,8 @@ public:
         strSporkKey                    = "045aabb21152a1f5c0cfb3a9fc67ca457c03804d241239db04347b72b319f348c88e224ba4afed80b01d16af91615aa3ab6ba82277ca7fd8cc95175df5079a49d1";
         strMasternodePoolDummyAddress  = "PFQP91e8KTxJu2yzDnyjW9VPXyxBHYK3kF";
         nStartMasternodePayments       = genesis.nTime + 86400; // 24 hours after genesis
+																			  
+																														   
         nBudget_Fee_Confirmations      = 3; // Number of confirmations for the finalization fee. We have to make this very short
                                        // here because we only have a 8 block finalization window on testnet
 
@@ -293,6 +412,7 @@ public:
         pchMessageStart[1] = 0xce;
         pchMessageStart[2] = 0x32;
         pchMessageStart[3] = 0xbc;
+									  
         nSubsidyHalvingInterval = 150;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
@@ -302,6 +422,26 @@ public:
         nTargetSpacing = 2 * 60;        // AileCoin: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1516926684;
+						   
+								  
+																		
+									   
+								   
+							   
+										
+																				
+																							
+																				 
+																				 
+																												
+										
+							  
+
+							 
+									   
+
+																						 
+								   
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 20542300;
 
@@ -317,7 +457,15 @@ public:
         fDefaultConsistencyChecks = true;
         fRequireStandard = false;
         fMineBlocksOnDemand = true;
+											   
         fTestnetToBeDeprecatedFieldRPC = false;
+								 
+																			
+																						 
+												   
+		  
+																																						   
+	 
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
     {

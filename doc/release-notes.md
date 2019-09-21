@@ -2,14 +2,14 @@
 
 AileCoin Core version *version* is now available from:
 
-  <https://github.com/pointofpublic/pointofpublic/releases>
+  <https://github.com/ailecoin/ailecoin/releases>
 
 This is a new major version release, including various bug fixes and
 performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/pointofpublic/pointofpublic/issues>
+  <https://github.com/ailecoin/ailecoin/issues>
 
 Mandatory Update
 ==============

@@ -143,11 +143,13 @@ public:
         genesis.hashMerkleRoot         = genesis.BuildMerkleTree();
         genesis.nVersion               = 1;
         genesis.nTime                  = 1568764800; //09/18/2019 @ 12:00am (UTC)
-        genesis.nBits                  = 0x1e0ffff0;
+        genesis.nBits                  = 504365040;
         genesis.nNonce                 = 3295626318;
 
         hashGenesisBlock               = genesis.GetHash();
-        assert(hashGenesisBlock        == uint256("0x0000000075efe8629a1c9d7c3c561ceb2f022f4f7c6354733d0342e5930ccb8e"));
+		
+        //assert(hashGenesisBlock        == uint256("0x0000000075efe8629a1c9d7c3c561ceb2f022f4f7c6354733d0342e5930ccb8e"));
+		printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
         assert(genesis.hashMerkleRoot  == uint256("0x720db66236cbc0145824aa7a04758efa1a126da1ed4d8e2ce3d48d2ec7927026"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,  48);	//48 L https://en.bitcoin.it/wiki/List_of_address_prefixes

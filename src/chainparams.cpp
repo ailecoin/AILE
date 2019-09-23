@@ -148,9 +148,9 @@ public:
 
         hashGenesisBlock               = genesis.GetHash();
 		
-        assert(hashGenesisBlock        == uint256("0xc7f4deaf2e9acb339facb15b9128db7c385125a09ca17cee9262841a0866495b"));
 		printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-		printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot().ToString().c_str());
+		printf("genesis.hashMerkleRoot = %s\n", genesis.BuildMerkleTree().ToString().c_str());
+        assert(hashGenesisBlock        == uint256("0xc7f4deaf2e9acb339facb15b9128db7c385125a09ca17cee9262841a0866495b"));
         assert(genesis.hashMerkleRoot  == uint256("0x720db66236cbc0145824aa7a04758efa1a126da1ed4d8e2ce3d48d2ec7927026"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,  48);	//48 L https://en.bitcoin.it/wiki/List_of_address_prefixes

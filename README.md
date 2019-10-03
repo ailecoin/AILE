@@ -55,7 +55,7 @@ More information at [www.ailecoin.com](https://www.ailecoin.com)
 <tr><td>Phase 9</td><td>388801-432000</td><td>24 AILE</td><td>15% (3.6 AILE)</td><td>85% (20.4 AILE)</td></tr>
 <tr><td>Phase 10</td><td>432001-475200</td><td>25 AILE</td><td>15% (3.75 AILE)</td><td>85% (21.25 AILE)</td></tr>
 <tr><td>Phase 11</td><td>475201-518400</td><td>20 AILE</td><td>15% (3.0 AILE)</td><td>85% (17.0 AILE)</td></tr>
-<tr><td>Phase X</td><td>518401-∞</td><td>150 AILE</td><td>15% (2.25 AILE)</td><td>85% (12.75 AILE)</td></tr>
+<tr><td>Phase X</td><td>518401-∞</td><td>15 AILE</td><td>15% (2.25 AILE)</td><td>85% (12.75 AILE)</td></tr>
 </table>
 
 
